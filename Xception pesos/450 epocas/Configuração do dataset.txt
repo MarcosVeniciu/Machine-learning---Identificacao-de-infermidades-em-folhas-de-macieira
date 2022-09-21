@@ -1,7 +1,0 @@
-DataSet Folhas Saldaveis
-516
-DataSet Folhas Doentes
-517
-	 91 com multiplas doenças
-	212 com rust
-	212 com scab
