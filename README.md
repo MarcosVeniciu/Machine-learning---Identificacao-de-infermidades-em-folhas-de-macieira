@@ -8,7 +8,8 @@ E comparar os resultados dos modelos com e sem Dada Augmentation.  <p>
 Fonte do dataset: https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7/data
 
 
-Exemplos de imagens utilizadas para algumas das classes testadas. sendo saudaveis = 0, multiple_diseases = 1, rust = 2, scab = 3.
+Exemplos de imagens utilizadas para algumas das classes testadas. sendo saudaveis = 0,  
+multiple_diseases = 1, rust = 2, scab = 3.  
 ![exemplo folhas](https://user-images.githubusercontent.com/42542651/191594601-b4b00d42-4585-4107-b318-7d2b98aa3730.jpg)
 
 ## MobileNetV2 sem Data Augmentation
