@@ -34,19 +34,14 @@ O melhor modelo encontrado após as 10 iterações possui uma acurácia de  0.92
 ## MobileNetV2 Com Data Augmentation
 
 ### Ajuste do Hyperparâmetro - Taxa de Aprendizado
-Para o ajuste da taxa de aprendizado foram realizadas 10 iterações, onde tentou minimizar a taxa de loss, com um limite maximo de 40 epocas.  
+Para este modelo foi usada a taxa de aprendizado de 0.004694027, com um limite maximo de 40 epocas.  
 O DataSet possui 2548 imagens de folhas de maçã, sendo: 637 amostras de folhas saudaveis, 637 com multiple diseases, 637 com rust e 637 com scab. Sendo Distribuidos 80% para treinamento e 20% para validação. <p>
-
-Valor da taxa de loss ao longo das iterações.  
- (grafico 1)
-
-
-Melhor Parametros encontrado: Taxa de Aprendizado: 0.004694027 com uma taxa de Loos de 0.22845.
 
 ## Curva de prendizado do melhor modelo encontrado
 Para os gráficos abaixo, o primeiro é do comportamento da taxa de loos para os dados de treinemento e validação, o segundo é o gráfico da acurácia de treinamento e 
-validação e o terceiro é a diferença em pontos percentuais da acurácia de treinamento e validação.  
-(grafico 2)
+validação e o terceiro é a diferença em pontos percentuais da acurácia de treinamento e validação.    
+![modelo 2](https://user-images.githubusercontent.com/42542651/192116097-740f78a5-54c3-42b3-9414-a90588dafcd2.jpg)
 
-O melhor modelo encontrado após as 10 iterações possui uma acurácia de  0.9203 e uma taxa de loss de 0.2806. Resultado obtido com a função evaluate() utilizando o dataset de validação.
+
+O modelo possui uma acurácia de  0.9136 e uma taxa de loss de 0.2660. Resultado obtido com a função evaluate() utilizando o dataset de validação.
 
